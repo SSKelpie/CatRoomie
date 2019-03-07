@@ -2,20 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77ffc595-8472-4788-95fd-5a61f183ca22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Cat Roommate Clone/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Cat Roommate Clone/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cat Roommate Clone/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Cat Roommate Clone/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cat Roommate Clone/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/WholeGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/WholeGame.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/e09b6b-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/e09b6b-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/996806-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/996806-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/fe/fef96a5ff8c7e413ca6c65d0e5d1e90a" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/fe/fef96a5ff8c7e413ca6c65d0e5d1e90a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,41 +40,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Script/WholeGame.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+            <state relative-caret-position="396">
+              <caret line="50" column="29" lean-forward="true" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
               <folding>
-                <marker date="1551839974113" expanded="false" signature="6:91" ph="..." />
-                <marker date="1551839974113" expanded="true" signature="181:1317" ph="{...}" />
-                <marker date="1551839974113" expanded="true" signature="468:538" ph="{...}" />
-                <marker date="1551839974113" expanded="true" signature="609:1024" ph="{...}" />
-                <marker date="1551839974113" expanded="true" signature="646:769" ph="{...}" />
-                <marker date="1551839974113" expanded="true" signature="844:1018" ph="{...}" />
-                <marker date="1551839974113" expanded="true" signature="1056:1315" ph="{...}" />
-                <marker date="1551839974113" expanded="true" signature="1100:1186" ph="{...}" />
-                <marker date="1551839974113" expanded="true" signature="1229:1308" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../IntroToText/Assets/Scripts/InputManager.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#100#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../IntroToText/Assets/Scripts/DisplayManager.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="768">
-              <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#78#0" expanded="true" />
+                <marker date="1551975874118" expanded="true" signature="6:140" ph="..." />
+                <marker date="1551975874118" expanded="true" signature="181:1530" ph="{...}" />
+                <marker date="1551975874118" expanded="true" signature="468:481" ph="{...}" />
+                <marker date="1551975874118" expanded="true" signature="552:1237" ph="{...}" />
+                <marker date="1551975874118" expanded="true" signature="620:888" ph="{...}" />
+                <marker date="1551975874118" expanded="true" signature="944:1036" ph="{...}" />
+                <marker date="1551975874118" expanded="true" signature="1049:1231" ph="{...}" />
+                <marker date="1551975874118" expanded="true" signature="1113:1221" ph="{...}" />
+                <marker date="1551975874118" expanded="true" signature="1269:1528" ph="{...}" />
+                <marker date="1551975874118" expanded="true" signature="1313:1399" ph="{...}" />
+                <marker date="1551975874118" expanded="true" signature="1442:1521" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -88,12 +65,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../../Landlock Project/Assets/Scripts/WinCon.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Landlock Project/Assets/Scripts/Check.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/WholeGame.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Landlock Project/Assets/Scripts/Click2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Landlock Project/Assets/Scripts/MovingBlocks.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/crunchy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Week 11 IntroTotext/Assets/scripts/InputManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../IntroToText/Assets/Scripts/DisplayManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Week 11 IntroTotext/Assets/scripts/DisplayManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../IntroToText/Assets/Scripts/InputManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Week 11 HW/Assets/Scripts/InputManager.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -116,10 +98,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -141,6 +119,10 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
       </pane>
       <pane id="AssemblyExplorer" />
     </panes>
@@ -192,11 +174,12 @@
       <workItem from="1551368419986" duration="743000" />
       <workItem from="1551830685450" duration="1962000" />
       <workItem from="1551833929964" duration="3185000" />
+      <workItem from="1551973085828" duration="2394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5890000" />
+    <option name="totallyTimeSpent" value="8284000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -211,7 +194,7 @@
     <frame x="281" y="29" width="1111" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18361837" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18361837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -273,6 +256,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../../IntroToText/Assets/Scripts/DisplayManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../../../IntroToText/Assets/Scripts/InputManager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -282,12 +275,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../IntroToText/Assets/Scripts/DisplayManager.cs">
+    <entry file="file://$PROJECT_DIR$/../../../Landlock Project/Assets/Scripts/MovingBlocks.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        <state relative-caret-position="-193">
+          <folding>
+            <element signature="e#0#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Landlock Project/Assets/Scripts/Check.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
             <element signature="e#0#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Landlock Project/Assets/Scripts/WinCon.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Landlock Project/Assets/Scripts/Click2.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1544609102750" expanded="false" signature="6:113" ph="..." />
+            <marker date="1544609102750" expanded="true" signature="150:406" ph="{...}" />
+            <marker date="1544609102750" expanded="true" signature="235:248" ph="{...}" />
+            <marker date="1544609102750" expanded="true" signature="306:319" ph="{...}" />
+            <marker date="1544609102750" expanded="true" signature="350:404" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Week 11 HW/Assets/Scripts/InputManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#100#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -306,18 +338,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/WholeGame.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        <state relative-caret-position="396">
+          <caret line="50" column="29" lean-forward="true" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
           <folding>
-            <marker date="1551839974113" expanded="false" signature="6:91" ph="..." />
-            <marker date="1551839974113" expanded="true" signature="181:1317" ph="{...}" />
-            <marker date="1551839974113" expanded="true" signature="468:538" ph="{...}" />
-            <marker date="1551839974113" expanded="true" signature="609:1024" ph="{...}" />
-            <marker date="1551839974113" expanded="true" signature="646:769" ph="{...}" />
-            <marker date="1551839974113" expanded="true" signature="844:1018" ph="{...}" />
-            <marker date="1551839974113" expanded="true" signature="1056:1315" ph="{...}" />
-            <marker date="1551839974113" expanded="true" signature="1100:1186" ph="{...}" />
-            <marker date="1551839974113" expanded="true" signature="1229:1308" ph="{...}" />
+            <marker date="1551975874118" expanded="true" signature="6:140" ph="..." />
+            <marker date="1551975874118" expanded="true" signature="181:1530" ph="{...}" />
+            <marker date="1551975874118" expanded="true" signature="468:481" ph="{...}" />
+            <marker date="1551975874118" expanded="true" signature="552:1237" ph="{...}" />
+            <marker date="1551975874118" expanded="true" signature="620:888" ph="{...}" />
+            <marker date="1551975874118" expanded="true" signature="944:1036" ph="{...}" />
+            <marker date="1551975874118" expanded="true" signature="1049:1231" ph="{...}" />
+            <marker date="1551975874118" expanded="true" signature="1113:1221" ph="{...}" />
+            <marker date="1551975874118" expanded="true" signature="1269:1528" ph="{...}" />
+            <marker date="1551975874118" expanded="true" signature="1313:1399" ph="{...}" />
+            <marker date="1551975874118" expanded="true" signature="1442:1521" ph="{...}" />
           </folding>
         </state>
       </provider>

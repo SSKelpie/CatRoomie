@@ -19,27 +19,40 @@ public class WholeGame : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        speech = GetComponent<TextMeshProUGUI>();
-       
+
     }
 
     // Update is called once per frame
     
     public void Choices()
     {
-        if (_answerstate <= 0)
-        {
-            _answerstate++;
-            _goodanswer++;
-            _badanswer++;
-            //cat = 
-
-        }
-        else if (_answerstate <= 1 && _goodanswer <= 1 && _badanswer <= 1)
+        if (_answerstate == 0 && Input.GetMouseButtonDown(0))
         {
             speech.text = "Are you a Night Owl or Early Bird?";
             leftanswer.text = "Night Owl.";
             rightanswer.text = "Early Bird!";
+            
+            _answerstate++;
+            _goodanswer++;
+            _badanswer++;
+        }
+        else if (_answerstate == 1 && _goodanswer == 1)
+        {
+            Debug.Log("BRUH");
+            _goodanswer++;
+            speech.text =
+            leftanswer.text =
+            rightanswer.text = 
+            
+
+        }
+        else
+        {
+            if (_answerstate == 1 && _badanswer == 1)
+            {
+                Debug.Log("hey man thats harsh");
+                _badanswer++;
+            }
         }
     }
 
