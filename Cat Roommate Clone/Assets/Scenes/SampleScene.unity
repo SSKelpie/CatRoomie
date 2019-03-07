@@ -684,8 +684,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 33
-  m_fontSizeBase: 33
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -844,8 +844,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 33
-  m_fontSizeBase: 33
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1012,6 +1012,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   leftanswer: {fileID: 1490482590}
   rightanswer: {fileID: 1656293387}
+  leftbut: {fileID: 2126475143}
+  rightbut: {fileID: 981171050}
   speech: {fileID: 717895344}
   cat:
   - {fileID: 21300000, guid: 00b2c847ef7b7403792aef913577605c, type: 3}
@@ -1025,6 +1027,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 47e085bfb41ad45d48ba5f0b607377f5, type: 3}
   - {fileID: 21300000, guid: 651dc0a6b8ca74028add4d140a724ff7, type: 3}
   - {fileID: 21300000, guid: ef896c9179b8e4775b363fdb05182b1c, type: 3}
+  catsprite: {fileID: 1088614997}
 --- !u!1 &2126475141
 GameObject:
   m_ObjectHideFlags: 0

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEditor;
 using UnityEditorInternal;
 using UnityEngine.UI;
 
@@ -13,8 +14,12 @@ public class WholeGame : MonoBehaviour
     int _badanswer = 0;
     public TextMeshProUGUI leftanswer;
     public TextMeshProUGUI rightanswer;
+    public Button leftbut;
+    public Button rightbut;
+    
     public TextMeshProUGUI speech;
     public Sprite[] cat;
+    public SpriteRenderer catsprite;
 
     // Start is called before the first frame update
     void Start()
@@ -26,34 +31,78 @@ public class WholeGame : MonoBehaviour
     
     public void Choices()
     {
-        if (_answerstate == 0 && Input.GetMouseButtonDown(0))
+        if (_answerstate == 0)
         {
             speech.text = "Are you a Night Owl or Early Bird?";
             leftanswer.text = "Night Owl.";
             rightanswer.text = "Early Bird!";
-            
+            catsprite.sprite = cat[10];
             _answerstate++;
-            _goodanswer++;
-            _badanswer++;
-        }
-        else if (_answerstate == 1 && _goodanswer == 1)
-        {
-            Debug.Log("BRUH");
-            _goodanswer++;
-            speech.text =
-            leftanswer.text =
-            rightanswer.text = 
             
-
         }
-        else
+        else if (_answerstate == 1)
         {
-            if (_answerstate == 1 && _badanswer == 1)
+            speech.text = "What do you like on your pizza?";
+            leftanswer.text = "Gotta love greens";
+            rightanswer.text = "I'm all about anchovies";
+            _answerstate++;
+
+            if (leftbut)
             {
-                Debug.Log("hey man thats harsh");
+                _goodanswer++;
+                Debug.Log("goody hoe");
+
+            }
+            else if (rightbut)
+            {
                 _badanswer++;
+                Debug.Log("harsh bitch");
             }
         }
+        else if (_answerstate == 2)
+        {
+            speech.text = "Are you allergic to cats?";
+            leftanswer.text = "Yes dude, get away!";
+            rightanswer.text = "Nah.";
+            _answerstate++;
+            
+            if (leftbut)
+            {
+                _goodanswer++;
+                Debug.Log("goody hoe 2.0");
+
+            }
+            else if (rightbut)
+            {
+                _badanswer++;
+                Debug.Log("harsh bitch 2.0");
+            }
+        }
+        else if (_answerstate == 3)
+        {
+            speech.text = "Are you allergic to cats?";
+            leftanswer.text = "Yes dude, get away!";
+            rightanswer.text = "Nah.";
+            _answerstate++;
+            
+            if (leftbut)
+            {
+                _goodanswer++;
+                Debug.Log("goody hoe 3.0");
+
+            }
+            else if (rightbut)
+            {
+                _badanswer++;
+                Debug.Log("harsh bitch 3.0");
+            }
+        }
+
+
+
+
+
+
     }
 
     public void ChangeSpeech()
