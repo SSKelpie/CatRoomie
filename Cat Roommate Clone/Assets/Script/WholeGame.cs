@@ -17,6 +17,7 @@ public class WholeGame : MonoBehaviour
     public TextMeshProUGUI rightanswer;
     public Button leftbut;
     public Button rightbut;
+    public bool isSelect;
 
     public TextMeshProUGUI speech;
     public Sprite[] cat;
@@ -39,6 +40,11 @@ public class WholeGame : MonoBehaviour
             rightanswer.text = "Early Bird!";
             catsprite.sprite = cat[10];
             _answerstate++;
+            
+            if (rightbut)
+            {
+                isSelect = !isSelect;
+            }
 
         }
         else if (_answerstate == 1)
@@ -48,15 +54,16 @@ public class WholeGame : MonoBehaviour
             rightanswer.text = "I'm all about anchovies";
             _answerstate++;
 
-            if (leftbut)
+            if (isSelect)
             {
                 _goodanswer++;
                 catsprite.sprite = cat[3];
             }
-            else if (rightbut)
+            if (!isSelect)
             {
                 _badanswer++;
                 catsprite.sprite = cat[11];
+               
             }
             
         }
@@ -70,10 +77,12 @@ public class WholeGame : MonoBehaviour
             if (leftbut)
             {
                 _badanswer++;
+                catsprite.sprite = cat[9];
             }
             else if (rightbut)
             {
                 _goodanswer++;
+                catsprite.sprite = cat[3];
             }
         }
         else if (_answerstate == 3)
@@ -86,10 +95,12 @@ public class WholeGame : MonoBehaviour
             if (leftbut)
             {
                 _badanswer++;
+                catsprite.sprite = cat[1];
             }
             else if (rightbut)
             {
                 _goodanswer++;
+                catsprite.sprite = cat[3];
             }
         }
         else if (_answerstate == 4)
@@ -101,10 +112,12 @@ public class WholeGame : MonoBehaviour
             if (leftbut)
             {
                 _goodanswer++;
+                catsprite.sprite = cat[3];
             }
             else if (rightbut)
             {
                 _badanswer++;
+                catsprite.sprite = cat[3];
             }
         }
         else if (_answerstate == 5)
@@ -117,10 +130,12 @@ public class WholeGame : MonoBehaviour
             if (leftbut)
             {
                 _goodanswer++;
+                catsprite.sprite = cat[3];
             }
             else if (rightbut)
             {
                 _badanswer++;
+                catsprite.sprite = cat[6];
             }
         }
         else if (_answerstate == 6)
@@ -137,7 +152,10 @@ public class WholeGame : MonoBehaviour
         }
     }
 
-
+    void ClickSelect()
+    {
+        isSelect = !isSelect;
+    }
 
 
     void ChangeSpeech()
@@ -147,12 +165,14 @@ public class WholeGame : MonoBehaviour
             speech.text = "You can totally be my roommate then!";
             leftanswer.text = " ";
             rightanswer.text = " ";
+            catsprite.sprite = cat[3];
         }
         else if (_badanswer > _goodanswer)
         {
             speech.text = "You can't live with me man...";
             leftanswer.text = " ";
             rightanswer.text = " ";
+            catsprite.sprite = cat[0];
         }
 
     }

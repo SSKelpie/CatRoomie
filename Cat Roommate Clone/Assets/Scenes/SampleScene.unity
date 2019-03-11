@@ -434,7 +434,7 @@ GameObject:
   - component: {fileID: 981171050}
   m_Layer: 0
   m_Name: Right Button
-  m_TagString: Untagged
+  m_TagString: RIGHT
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -452,7 +452,7 @@ RectTransform:
   m_Children:
   - {fileID: 1656293386}
   m_Father: {fileID: 1791562658}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -988,8 +988,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 717895343}
-  - {fileID: 981171049}
   - {fileID: 2126475142}
+  - {fileID: 981171049}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1016,6 +1016,7 @@ MonoBehaviour:
   rightanswer: {fileID: 1656293387}
   leftbut: {fileID: 2126475143}
   rightbut: {fileID: 981171050}
+  isSelect: 0
   speech: {fileID: 717895344}
   cat:
   - {fileID: 21300000, guid: 00b2c847ef7b7403792aef913577605c, type: 3}
@@ -1044,7 +1045,7 @@ GameObject:
   - component: {fileID: 2126475143}
   m_Layer: 0
   m_Name: Left Button
-  m_TagString: Untagged
+  m_TagString: LEFT
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1062,7 +1063,7 @@ RectTransform:
   m_Children:
   - {fileID: 1490482589}
   m_Father: {fileID: 1791562658}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}

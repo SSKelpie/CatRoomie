@@ -63,7 +63,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\sc.cs" />
     <Compile Include="Assets\Script\crunchy.cs" />
+    <Compile Include="Assets\Script\LeftChoice.cs" />
+    <Compile Include="Assets\Script\RightChoice.cs" />
     <Compile Include="Assets\Script\WholeGame.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
