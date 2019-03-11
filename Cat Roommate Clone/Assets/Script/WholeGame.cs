@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using UnityEngine;
 using TMPro;
 using UnityEditor;
@@ -10,13 +11,13 @@ using UnityEngine.UI;
 public class WholeGame : MonoBehaviour
 {
     int _answerstate = 0;
-    int _goodanswer = 0;
-    int _badanswer = 0;
+    public int _goodanswer = 0;
+    public int _badanswer = 0;
     public TextMeshProUGUI leftanswer;
     public TextMeshProUGUI rightanswer;
     public Button leftbut;
     public Button rightbut;
-    
+
     public TextMeshProUGUI speech;
     public Sprite[] cat;
     public SpriteRenderer catsprite;
@@ -28,7 +29,7 @@ public class WholeGame : MonoBehaviour
     }
 
     // Update is called once per frame
-    
+
     public void Choices()
     {
         if (_answerstate == 0)
@@ -38,7 +39,7 @@ public class WholeGame : MonoBehaviour
             rightanswer.text = "Early Bird!";
             catsprite.sprite = cat[10];
             _answerstate++;
-            
+
         }
         else if (_answerstate == 1)
         {
@@ -50,14 +51,14 @@ public class WholeGame : MonoBehaviour
             if (leftbut)
             {
                 _goodanswer++;
-                Debug.Log("goody hoe");
-
+                catsprite.sprite = cat[3];
             }
             else if (rightbut)
             {
                 _badanswer++;
-                Debug.Log("harsh bitch");
+                catsprite.sprite = cat[11];
             }
+            
         }
         else if (_answerstate == 2)
         {
@@ -65,56 +66,97 @@ public class WholeGame : MonoBehaviour
             leftanswer.text = "Yes dude, get away!";
             rightanswer.text = "Nah.";
             _answerstate++;
-            
+
             if (leftbut)
             {
-                _goodanswer++;
-                Debug.Log("goody hoe 2.0");
-
+                _badanswer++;
             }
             else if (rightbut)
             {
-                _badanswer++;
-                Debug.Log("harsh bitch 2.0");
+                _goodanswer++;
             }
         }
         else if (_answerstate == 3)
         {
-            speech.text = "Are you allergic to cats?";
-            leftanswer.text = "Yes dude, get away!";
-            rightanswer.text = "Nah.";
+            speech.text = "How do you feel about naps?";
+            leftanswer.text = "Love 'em!";
+            rightanswer.text = "Hate 'em.";
             _answerstate++;
-            
+
+            if (leftbut)
+            {
+                _badanswer++;
+            }
+            else if (rightbut)
+            {
+                _goodanswer++;
+            }
+        }
+        else if (_answerstate == 4)
+        {
+            speech.text = "Don't you hate birds?";
+            leftanswer.text = "They're the worst!";
+            rightanswer.text = "Not really man.";
+            _answerstate++;
             if (leftbut)
             {
                 _goodanswer++;
-                Debug.Log("goody hoe 3.0");
-
             }
             else if (rightbut)
             {
                 _badanswer++;
-                Debug.Log("harsh bitch 3.0");
             }
         }
+        else if (_answerstate == 5)
+        {
+            speech.text = "Alright, can I have some belly rubs?";
+            leftanswer.text = "I dont know...";
+            rightanswer.text = "Sure thing!";
+            _answerstate++;
 
-
-
-
-
-
+            if (leftbut)
+            {
+                _goodanswer++;
+            }
+            else if (rightbut)
+            {
+                _badanswer++;
+            }
+        }
+        else if (_answerstate == 6)
+        {
+            ChangeSpeech();
+            if (leftbut)
+            {
+                _badanswer++;
+            }
+            else if (rightbut)
+            {
+                _goodanswer++;
+            }
+        }
     }
 
-    public void ChangeSpeech()
+
+
+
+    void ChangeSpeech()
     {
         if (_goodanswer > _badanswer)
         {
             speech.text = "You can totally be my roommate then!";
+            leftanswer.text = " ";
+            rightanswer.text = " ";
         }
         else if (_badanswer > _goodanswer)
         {
             speech.text = "You can't live with me man...";
+            leftanswer.text = " ";
+            rightanswer.text = " ";
         }
 
     }
 }
+    
+
+    
