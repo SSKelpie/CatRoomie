@@ -9,31 +9,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77ffc595-8472-4788-95fd-5a61f183ca22" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Cat Roommate Clone/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cat Roommate Clone/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Cat Roommate Clone/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cat Roommate Clone/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/LeftChoice.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/LeftChoice.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/RightChoice.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/RightChoice.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/WholeGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/WholeGame.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/crunchy.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/crunchy.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/e09b6b-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/e09b6b-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/996806-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/996806-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/45/450d44cbba61f4111a6e377ca42f0a43" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/45/450d44cbba61f4111a6e377ca42f0a43.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/7b/7b725beed8e4c41d0a832c0e334f84dd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/7b/7b725beed8e4c41d0a832c0e334f84dd.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/86/8604ba5d8282e40f6844a4aeaab46043" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/86/8604ba5d8282e40f6844a4aeaab46043.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/fe/fef96a5ff8c7e413ca6c65d0e5d1e90a" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/fe/fef96a5ff8c7e413ca6c65d0e5d1e90a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,19 +25,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Script/WholeGame.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="95" column="36" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
+            <state relative-caret-position="-63">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
               <folding>
                 <marker date="1552365297552" expanded="false" signature="6:195" ph="..." />
                 <marker date="1552365297552" expanded="true" signature="236:5649" ph="{...}" />
-                <marker date="1552365297552" expanded="true" signature="506:631" ph="/* public Button rightbut; ... */" />
+                <marker date="1552365297552" expanded="true" signature="506:631" ph="/* right so these were calling buttons but didn't use UI or onClick ... */" />
                 <marker date="1552365297552" expanded="true" signature="800:952" ph="{...}" />
                 <marker date="1552365297552" expanded="true" signature="1019:4192" ph="{...}" />
                 <marker date="1552365297552" expanded="true" signature="1056:1301" ph="{...}" />
                 <marker date="1552365297552" expanded="true" signature="1337:1841" ph="{...}" />
-                <marker date="1552365297552" expanded="true" signature="1597:1805" ph="/* if (b1) ... */" />
+                <marker date="1552365297552" expanded="true" signature="1597:1805" ph="/* failed attempts ... */" />
                 <marker date="1552365297552" expanded="true" signature="1877:2437" ph="{...}" />
-                <marker date="1552365297552" expanded="true" signature="2102:2427" ph="/* if (leftbut) ... */" />
+                <marker date="1552365297552" expanded="true" signature="2102:2427" ph="/* old code left in to remind me what not to do ... */" />
                 <marker date="1552365297552" expanded="true" signature="2473:2984" ph="{...}" />
                 <marker date="1552365297552" expanded="true" signature="2696:2974" ph="/* if (leftbut) ... */" />
                 <marker date="1552365297552" expanded="true" signature="3020:3539" ph="{...}" />
@@ -73,7 +52,7 @@
                 <marker date="1552365297552" expanded="true" signature="4502:4549" ph="{...}" />
                 <marker date="1552365297552" expanded="true" signature="4562:4608" ph="{...}" />
                 <marker date="1552365297552" expanded="true" signature="4641:5141" ph="{...}" />
-                <marker date="1552365297552" expanded="true" signature="4656:5059" ph="/* switch (_answerstate % 2) ... */" />
+                <marker date="1552365297552" expanded="true" signature="4656:5059" ph="/* switch added listener each time it was called ... */" />
                 <marker date="1552365297552" expanded="true" signature="5168:5647" ph="{...}" />
                 <marker date="1552365297552" expanded="true" signature="5212:5408" ph="{...}" />
                 <marker date="1552365297552" expanded="true" signature="5451:5640" ph="{...}" />
@@ -124,6 +103,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
       <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
         <subPane>
@@ -146,9 +128,6 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
-      </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
       </pane>
       <pane id="FileSystemExplorer" />
     </panes>
@@ -209,11 +188,14 @@
       <workItem from="1552318177425" duration="3285000" />
       <workItem from="1552338312463" duration="3540000" />
       <workItem from="1552364478124" duration="820000" />
+      <workItem from="1552398160572" duration="5000" />
+      <workItem from="1552398178590" duration="78000" />
+      <workItem from="1552398294214" duration="71000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32300000" />
+    <option name="totallyTimeSpent" value="32454000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -226,7 +208,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="329" y="23" width="1111" height="811" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25742576" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -367,49 +348,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/crunchy.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/Pseudocode.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/LeftChoice.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/RightChoice.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1120">
-          <caret line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/crunchy.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/Pseudocode.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/LeftChoice.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/RightChoice.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Script/WholeGame.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="95" column="36" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
+        <state relative-caret-position="-63">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
           <folding>
             <marker date="1552365297552" expanded="false" signature="6:195" ph="..." />
             <marker date="1552365297552" expanded="true" signature="236:5649" ph="{...}" />
-            <marker date="1552365297552" expanded="true" signature="506:631" ph="/* public Button rightbut; ... */" />
+            <marker date="1552365297552" expanded="true" signature="506:631" ph="/* right so these were calling buttons but didn't use UI or onClick ... */" />
             <marker date="1552365297552" expanded="true" signature="800:952" ph="{...}" />
             <marker date="1552365297552" expanded="true" signature="1019:4192" ph="{...}" />
             <marker date="1552365297552" expanded="true" signature="1056:1301" ph="{...}" />
             <marker date="1552365297552" expanded="true" signature="1337:1841" ph="{...}" />
-            <marker date="1552365297552" expanded="true" signature="1597:1805" ph="/* if (b1) ... */" />
+            <marker date="1552365297552" expanded="true" signature="1597:1805" ph="/* failed attempts ... */" />
             <marker date="1552365297552" expanded="true" signature="1877:2437" ph="{...}" />
-            <marker date="1552365297552" expanded="true" signature="2102:2427" ph="/* if (leftbut) ... */" />
+            <marker date="1552365297552" expanded="true" signature="2102:2427" ph="/* old code left in to remind me what not to do ... */" />
             <marker date="1552365297552" expanded="true" signature="2473:2984" ph="{...}" />
             <marker date="1552365297552" expanded="true" signature="2696:2974" ph="/* if (leftbut) ... */" />
             <marker date="1552365297552" expanded="true" signature="3020:3539" ph="{...}" />
@@ -424,7 +381,7 @@
             <marker date="1552365297552" expanded="true" signature="4502:4549" ph="{...}" />
             <marker date="1552365297552" expanded="true" signature="4562:4608" ph="{...}" />
             <marker date="1552365297552" expanded="true" signature="4641:5141" ph="{...}" />
-            <marker date="1552365297552" expanded="true" signature="4656:5059" ph="/* switch (_answerstate % 2) ... */" />
+            <marker date="1552365297552" expanded="true" signature="4656:5059" ph="/* switch added listener each time it was called ... */" />
             <marker date="1552365297552" expanded="true" signature="5168:5647" ph="{...}" />
             <marker date="1552365297552" expanded="true" signature="5212:5408" ph="{...}" />
             <marker date="1552365297552" expanded="true" signature="5451:5640" ph="{...}" />
